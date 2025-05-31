@@ -94,7 +94,7 @@ ssh -p 10022 cesar@localhost
 
 ### Prueba de conexión SSH anfitrión-invitado
 
-## ![ssh conexion](/markdown/images/ssh/ssh-conexion.png)
+## ![ssh conexion](/images/ssh/ssh-conexion.png)
 
 ---
 
@@ -118,19 +118,19 @@ systemctl status apache2
 
 ## Status apache2
 
-![apache status](/markdown/images/apache/apache-status.png)
+![apache status](/images/apache/apache-status.png)
 
 ---
 
 ### renvio puertos apache2
 
-## ![apache renvio puertos](/markdown/images/apache/renvio-puertos-apache.png)
+## ![apache renvio puertos](/images/apache/renvio-puertos-apache.png)
 
 Accediendo a el servidor apache desde mi maquina en el puerto 8080
 
 ---
 
-![apache default page](/markdown/images/apache/apache-default-page.png)
+![apache default page](/images/apache/apache-default-page.png)
 
 ---
 
@@ -208,7 +208,7 @@ systemctl reload apache2
 
 En nuestro puerto 8080 veremos nuestra pagina
 
-## ![apache test pahe](/markdown/images/apache/apache-test-page.png)
+## ![apache test pahe](/images/apache/apache-test-page.png)
 
 ---
 
@@ -447,7 +447,7 @@ Ya tenia un dump realizado asi que lo vamos a copiar a la maquina debian con scp
 
 - Con la opcion -P indicamos el numero de puerto del ssh veamos si se exporto correctamente
 
-## ![scp resultado](/markdown/images/mariadb/resultado-scp.png)
+## ![scp resultado](/images/mariadb/resultado-scp.png)
 
 ---
 
@@ -587,7 +587,7 @@ var/www/proyecto/public_html/public
 
 2. Creamos el .env con usuario y contraseña que creamos
 
-![.env](/markdown/images/proyecto/env.png)
+![.env](/images/proyecto/env.png)
 
 ### Instalamos composer
 
